@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	line-height: 0.8;
+}
+
+body{
+	padding: 0.2cm;
+	background-color: rgb(200,220,250);
+	background-color: #ffc68e;
+}
+
+#cubix {
+	padding: 0.5cm;
+/*
+	border: 2cm solid black;
+*/
+}
+
+.cube {
+/*
+	 background-color: rgba(0,0,0,1);
+*/
+	 width: 0.8cm;
+	 height: 0.8cm;
+/*
+	-webkit-transform: rotate(45deg);
+*/
+	display: inline-block;
+	margin: 0.12cm;
+	border-width: 0.2cm;
+	border-color: black silver white rgb(100,100,100);
+	border-style: solid solid solid dotted;
+ }
