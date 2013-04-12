@@ -230,7 +230,9 @@
 	}
 
 	var cubix = new Cubix()
-		.render()
+
+
+	cubix.render()
 
 	setTimeout(function() {
 		cubix
@@ -250,9 +252,9 @@
 					cubix
 						//.update(fakesome.matrix(16, 16, ['n', 'e', 's', 'w']))
 						.update(white)
-				}, 2000)
-			}, 2000)
-		}, 2000)
+				}, 3000)
+			}, 3000)
+		}, 3000)
 	}, 1000)
 
 
