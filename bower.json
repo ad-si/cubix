@@ -1,0 +1,26 @@
+{
+  "name": "cubix",
+  "version": "0.1.0",
+  "homepage": "https://github.com/adius/cubix",
+  "authors": [
+    "adius <mail@adriansieber.com>"
+  ],
+  "description": "Mechanical display",
+  "main": "index.html",
+  "keywords": [
+    "display"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fakesome": "~0.5.3",
+    "shaven": "~0.3.3"
+  }
+}

@@ -1,4 +1,4 @@
-(function() {
+!function() {
 
 	function $(query) {
 		query = document.querySelectorAll(query)
@@ -128,7 +128,7 @@
 
 		this.render = function() {
 
-			element = DOMinate(['div.cube#cube' + x + '-' + y])[0]
+			element = shaven(['div.cube#cube' + x + '-' + y])[0]
 
 			element.setAttribute("style", "-webkit-transform: rotate(" + rotationMap[nextCubeSide] + "deg)")
 
@@ -196,7 +196,7 @@
 				cube.render()
 
 				if((index + 1) % 16 == 0)
-					DOMinate([$('#cubix'), ['br']])
+					shaven([$('#cubix'), ['br']])
 			})
 
 			return this
@@ -258,4 +258,4 @@
 	}, 1000)
 
 
-}())
+}()
